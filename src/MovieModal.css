@@ -1,0 +1,56 @@
+.overlay_background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2555999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay_container {
+  background-color: #bcbcbc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400%;
+  /* max-width: 600px;
+  max-height: 80%; */
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.overlay_controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.overlay_close {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.overlay_close:hover {
+  color: #ff0000;
+}
+
+iframe {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
